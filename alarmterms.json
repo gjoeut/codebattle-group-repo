@@ -1,0 +1,69 @@
+{
+  "scam_phrases": [
+  
+    {
+      "score": 1,
+      "risk_level": "low",
+      "assessment": "soft urgency, no extra worry in effect",
+      "phrases": [
+        "Please find the attached invoice",
+        "Following up on our previous conversation",
+        "Are you avaliable for a quick call",
+        "Your monthly statement is ready",
+        "We missed you Come back for a special offer",
+        "Document shared with you via Drive",
+        "Please confirm your attendance"
+      ]
+    }
+    
+    {
+      "score": 2,
+      "risk_level": "mild",
+      "assessment": "fake urgency, ignore and delete, block ",
+      "phrases": [
+        "Your package delivery failed!",
+        "Urgent!",
+        "Your subscription is about to expire!",
+        "Confirm your email address to keep your account",
+        "Unusual sign-in activity deteced",
+        "Final Reminder: Overdue Balance",
+        "Exclusive reward waiting for you"
+      ]
+    }
+
+    {
+      "score": 3,
+      "risk_level": "risky",
+      "assessment": "verify email sender, and limit engagement",
+      "phrases": [
+        "Your account will be suspended within 24 hours",
+        "Your account will be suspended within twenty-four hours",
+        "Click here to verify your identity immediately",
+        "Your payment metghod has been declined, update your billing information",
+        "We were unable to verify your account information",
+        "Your password expires today, click to keep your current password",
+        "Action required: your account has been limited",
+        "You have been selected to receive a gift card",
+        "Your mailbox storage is full, upgrade now to avoid losing messages",
+        "We noticed a login fro man unrecognized device, confirm it was you",
+        "Failure to respond will result in permanent closure",
+      ]
+    }
+    
+    {
+      "score": 4,
+      "risk_level": "high",
+      "assessment": "likely scam, do not engage links or attached content, verify before interacting",
+      "phrases": [
+        "Your account has been compromised, log in now to secure it",
+        "Enter your password and one-time code to restore access",
+        "Urgent tax refund is pending, submit ban kdetails to receive it",
+        "Unpaid toll, pay now to avoid additional fees",
+        "You have won a lottery, claim your prize",
+        "Payment Reminder",
+        "Your Social Security number has been suspended",
+        "Urgent, you may have been hacked",
+    }
+    
+  ]
+}
